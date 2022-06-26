@@ -8,7 +8,7 @@
 <div class="lista">
   <TarefaLista v-for="(tarefa, index) in tarefas" :key="index" :tarefa="tarefa"/>
   <BoxCentral v-if="listaEstaVazia">
-Você não está muito produtivo hoje :(
+Você não está muito produtivo sempre :(
 </BoxCentral>
 </div>
 
